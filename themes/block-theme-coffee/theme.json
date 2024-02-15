@@ -16,6 +16,11 @@
 					"name": "Contrast"
 				},
 				{
+                    "slug": "red",
+                    "color": "#FF0000",
+                    "name": "Red"
+                },
+				{
 					"slug": "primary",
 					"color": "#6d301b",
 					"name": "Primary"
