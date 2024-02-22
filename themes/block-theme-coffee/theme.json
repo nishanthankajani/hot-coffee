@@ -175,10 +175,12 @@
 						},
 						"typography": {
 							"textDecoration": "none"
+
 						},
 						":hover": {
 							"color": {
-								"text": "var(--wp--preset--color--contrast)"
+
+								"background":"#472216"
 							},
 							"typography": {
 								"textDecoration": "none"
