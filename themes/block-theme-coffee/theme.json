@@ -167,14 +167,14 @@
 				}
 			},
 			"core/navigation": {
-				"css": "& .wp-block-site-title{ margin:0; font-weight:400;}",
+				"css": "& .wp-block-site-title{ margin:50; font-weight:400;}",
 				"elements": {
 					"link": {
 						"color": {
 							"text": "var(--wp--preset--color--contrast)"
 						},
 						"typography": {
-							"textDecoration": "underline"
+							"textDecoration": "none"
 						},
 						":hover": {
 							"color": {
