@@ -23,6 +23,13 @@ function block_theme_coffee_wp_enqueue_scripts() {
 		wp_get_theme()->get( 'Version' )
 	);
 	wp_enqueue_style(
+		'woocommerce',
+		get_template_directory_uri(),
+		[],
+		wp_get_theme()->get( 'Version' )
+	);
+
+	wp_enqueue_style(
 		'bootstrap',
         get_template_directory_uri() . '/assets/css/bootstrap.min.css',
         [],
