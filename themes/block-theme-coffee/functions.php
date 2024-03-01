@@ -24,7 +24,7 @@ function block_theme_coffee_wp_enqueue_scripts() {
 	);
 	wp_enqueue_style(
 		'woocommerce',
-		get_template_directory_uri(),
+		get_template_directory_uri() . '/assets/css/woocommerce.css',
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
