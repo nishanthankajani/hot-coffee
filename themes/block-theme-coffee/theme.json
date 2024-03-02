@@ -180,7 +180,7 @@
 						":hover": {
 							"color": {
 
-								"background":"#472216"
+								"background":"#f0e1dd"
 							},
 							"typography": {
 								"textDecoration": "none"
@@ -307,7 +307,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "#f0e1dd"
 				},
 				":hover": {
 					"color": {
