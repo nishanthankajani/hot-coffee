@@ -15,4 +15,8 @@ padding-left: 25px;
 flex-wrap: wrap;
 }
 
+.woocommerce nav,a {
+    color: aliceblue;
+    
+}
 
