@@ -1,4 +1,16 @@
 .logged-in.woocommerce-account .entry-content .woocommerce {
     display:flex;
-    flex-direction: column;
+ padding-bottom: 50px;
+    font-size: 12px;
 }
+
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul{
+font-size: 10px;
+}
+
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation li{
+  background-color: antiquewhite;
+padding-left: 25px;
+}
+
+
