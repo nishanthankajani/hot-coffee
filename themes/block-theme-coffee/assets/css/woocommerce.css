@@ -10,7 +10,7 @@ font-size: 10px;
 }
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation li{
-  background-color: antiquewhite;
+  background-color:#6b1f0b;
 padding-left: 25px;
 flex-wrap: wrap;
 }
@@ -61,7 +61,7 @@ flex-wrap: wrap;
     font-weight: bold;
 }
 
-.woocommerce-breadcrumb a{
+.woocommerce-breadcrumb a  , .woocommerce-MyAccount-navigation-link a{
     color: antiquewhite;
     text-decoration: none;
   
