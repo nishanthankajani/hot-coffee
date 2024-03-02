@@ -58,4 +58,5 @@ flex-wrap: wrap;
 .wp-block-post-title a{ 
     color: aliceblue;
     text-decoration: none;
+    font-weight: bold;
 }
