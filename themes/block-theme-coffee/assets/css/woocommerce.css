@@ -60,3 +60,9 @@ flex-wrap: wrap;
     text-decoration: none;
     font-weight: bold;
 }
+
+.woocommerce-breadcrumb a{
+    color: antiquewhite;
+    text-decoration: none;
+  
+}
