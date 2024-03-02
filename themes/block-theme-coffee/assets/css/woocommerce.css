@@ -32,6 +32,16 @@ flex-wrap: wrap;
     font-size: 40px;
 }
 
-.wp-block-post-excerpt__excerpt{
+.wp-block-post-excerpt__excerpt  , .wc-tabs{
     color: aliceblue;
+}
+
+.entry-content wc-tab {
+    color: aliceblue;
+}
+
+.sku  {
+    color: antiquewhite;
+ 
+   
 }
