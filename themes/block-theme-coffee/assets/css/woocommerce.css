@@ -20,3 +20,18 @@ flex-wrap: wrap;
     
 }
 
+.woocommerce-Price-amount ,  .wp-block-query-title {
+    color: antiquewhite;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.wp-block-post-title{
+    color: antiquewhite;
+    padding-left: 25px;
+    font-size: 40px;
+}
+
+.wp-block-post-excerpt__excerpt{
+    color: aliceblue;
+}
