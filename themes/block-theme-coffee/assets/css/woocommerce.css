@@ -119,3 +119,49 @@ footer a:hover {
 font-size: 20px;
     color: aliceblue;
 }
+
+.taxonomy-category a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.wp-block-comment-edit-link a {
+    text-decoration: none;
+    padding:20px 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+h3 {
+    padding-left: 50px;
+    font-size: 50px;
+    color: black;
+    
+}
+
+.wp-block-comment-reply-link a {
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.logged-in-as a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5e5958;
+}
+
+.post-navigation-link-previous a{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(0, 0, 0);  
+}
+.post-navigation-link-previous a:hover{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(223, 215, 215);  
+}
+
+.form-submit wp-block-button {
+    background-color: black;
+}
