@@ -177,3 +177,15 @@ h3 {
     font-size: 20px;
         color: rgb(0, 0, 0);  
 }
+
+.wp-block-group ul{
+    list-style: none;
+    padding-bottom: 50px;
+   
+}
+
+
+.wp-block-navigation-item__label {
+    padding-left: 25px;
+    text-align: center;
+}
