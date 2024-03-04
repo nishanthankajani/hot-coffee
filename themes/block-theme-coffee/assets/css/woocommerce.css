@@ -75,3 +75,13 @@ flex-wrap: wrap;
     
 
 }
+
+.wp-block-heading {
+    color: aliceblue;
+}
+
+h2{
+    color:aliceblue;
+    font-size:50px
+}
+
