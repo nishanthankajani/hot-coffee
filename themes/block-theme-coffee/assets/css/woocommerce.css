@@ -76,6 +76,7 @@ flex-wrap: wrap;
 
 }
 
+
 .wp-block-heading {
     color: aliceblue;
 }
@@ -148,7 +149,7 @@ h3 {
 .logged-in-as a{
     text-decoration: none;
     font-size: 20px;
-    color: #5e5958;
+    color: rgb(0, 0, 0);  
 }
 
 .post-navigation-link-previous a{
@@ -162,6 +163,17 @@ h3 {
         color: rgb(223, 215, 215);  
 }
 
-.form-submit wp-block-button {
-    background-color: black;
+
+
+.post-navigation-link-next a{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(0, 0, 0);  
+ 
+}
+
+.wp-block-comment-content a{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(0, 0, 0);  
 }
