@@ -85,3 +85,31 @@ h2{
     font-size:50px
 }
 
+
+li {
+   
+    padding-left: 10px;
+
+}
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #6b1f0b;
+}
+
+.footer-nav {
+    background-color: #6b1f0b;
+}
+
+.wp-block-comment-date a{
+    font-size: 10;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.wp-block-comment-author-name a{
+    text-decoration: none;
+    color: aliceblue;}

@@ -171,7 +171,7 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--contrast)"
+							"text": "#ffe599"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -188,7 +188,7 @@
 						},
 						":focus": {
 							"color": {
-								"text": "var(--wp--preset--color--contrast)"
+								"text": "#ffe599"
 							}
 						},
 						":active": {
