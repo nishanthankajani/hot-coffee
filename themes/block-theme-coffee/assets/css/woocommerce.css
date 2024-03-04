@@ -113,3 +113,9 @@ footer a:hover {
 .wp-block-comment-author-name a{
     text-decoration: none;
     color: aliceblue;}
+
+.wp-block-post-author-name a{
+    text-decoration: none;
+font-size: 20px;
+    color: aliceblue;
+}
