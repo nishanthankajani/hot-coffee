@@ -7,12 +7,13 @@
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul{
 font-size: 10px;
+
 }
 
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation li{
-  background-color:#6b1f0b;
-padding-left: 25px;
-flex-wrap: wrap;
+background-color: black;
+padding-left: 15px;
+
 
 }
 
@@ -228,4 +229,14 @@ font-weight: 800;}
 
 .wc-block-components-quantity-selector button {
     color: antiquewhite;
+}
+
+.woocommerce-loop-product__title {
+    color: aliceblue;
+    font-weight: 800;
+}
+
+.wc-block-checkout__terms a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
 }
