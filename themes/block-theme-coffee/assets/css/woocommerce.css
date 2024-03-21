@@ -29,6 +29,7 @@ padding-left: 15px;
 }
 
 .wp-block-post-title{
+    padding-top: 50px;
     color: antiquewhite;
     padding-left: 25px;
     font-size: 40px;
@@ -36,9 +37,18 @@ padding-left: 15px;
 
 .wp-block-post-excerpt__excerpt  , .wc-tabs{
     color: aliceblue;
+    padding-left: 30px;
 }
 
 .entry-content wc-tab {
+    color: aliceblue;
+}
+
+.quantity {
+    padding-left: 20px;
+}
+.stock{
+    padding-left: 20px;
     color: aliceblue;
 }
 
@@ -240,3 +250,33 @@ font-weight: 800;}
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
+
+.woocommerce-MyAccount-content a{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.woocommerce-MyAccount-content p{
+    padding-left: 50px;
+    font-size: 22px;
+}
+
+.woocommerce-LostPassword a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.woocommerce-privacy-policy-text a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.woocommerce-form{
+    background-color: #6a27167d;
+    height: 480px;
+}
+

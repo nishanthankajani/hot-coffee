@@ -179,8 +179,8 @@
 						},
 						":hover": {
 							"color": {
-
-								"background":"#f0e1dd"
+								
+								"background":"#332c2c"
 							},
 							"typography": {
 								"textDecoration": "none"
