@@ -43,3 +43,14 @@ function block_theme_coffee_wp_enqueue_scripts() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'block_theme_coffee_wp_enqueue_scripts' );
+
+
+function hot_coffee_pre_get_post( $query ) {
+	if ( !is_admin() && $query->is_main_query() ) {
+	  if ( $query->is_search ) {
+		$query->set( 'post_type', array( hot_coffee_books ) );
+	  }
+	}
+  }
+  add_action( 'pre_get_posts', 'hot_coffee_pre_get_post' );
+  
