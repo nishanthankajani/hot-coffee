@@ -54,6 +54,7 @@ padding-left: 15px;
     padding-left: 20px;
 }
 
+/*  stock class styling*/
 .stock{
     padding-left: 20px;
     color: aliceblue;
@@ -64,10 +65,12 @@ padding-left: 15px;
  
    
 }
+
+/*  stock class styling*/   
 .wp-block-post-terms__prefix {
-    color: antiquewhite;
-    font-size: 12px;
-    margin-left: 25px;
+    color: antiquewhite; /* color of the block post-term*/ 
+    font-size: 12px; /* font size*/  
+    margin-left: 25px; /* setting margin*/ 
 }
 
 .wp-block-post-terms__prefix a {
@@ -94,31 +97,37 @@ padding-left: 15px;
 
 }
 
-
+/*  styling the heading*/  
 .wp-block-heading {
-    color: aliceblue;
+    color: aliceblue;/*  white as a color*/  
 }
 
+/*  hedding 2 nstyling*/  
 h2{
-    color:rgb(190, 53, 4);
+    color:rgb(190, 53, 4);/*  colour and font sixe*/  
     font-size:50px
 }
 
-
+/*  styling list*/  
 li {
    
-    padding-left: 10px;
+    padding-left: 10px; /* padding the list to 10 px*/  
 
 }
+
+/* footer link*/  
 footer a {
-    text-decoration: none;
+    text-decoration: none;/*  Removing underline and giving font size*/  
     font-size: 20px;
 }
 
+/*  in footer hover the a need change color */  
 footer a:hover {
     color: #6b1f0b;
 }
 
+
+/* In footer nave background change color */  
 .footer-nav {
     background-color: #6b1f0b;
 }
@@ -129,6 +138,8 @@ footer a:hover {
     color: aliceblue;
 }
 
+
+/* a underline removal and color change */ 
 .wp-block-comment-author-name a{
     text-decoration: none;
     color: aliceblue;}
@@ -139,11 +150,13 @@ font-size: 20px;
     color: aliceblue;
 }
 
+/* a underline removal, font size  and color change */ 
 .taxonomy-category a{
     text-decoration: none;
     font-size: 20px;
     color: aliceblue;
 }
+
 
 .wp-block-comment-edit-link a {
     text-decoration: none;
@@ -151,11 +164,11 @@ font-size: 20px;
     font-size: 20px;
     color: aliceblue;
 }
+/* Hedding 3 styling  */ 
 h3 {
     padding-left: 50px;
     font-size: 50px;
-    color: black;
-    
+    color: black; 
 }
 
 .wp-block-comment-reply-link a {
@@ -164,12 +177,14 @@ h3 {
     color: aliceblue;
 }
 
+/* logged in styling */ 
 .logged-in-as a{
     text-decoration: none;
     font-size: 20px;
     color: rgb(0, 0, 0);  
 }
 
+/* nav post styling text decoration and font size color */ 
 .post-navigation-link-previous a{
     text-decoration: none;
     font-size: 20px;
@@ -202,12 +217,12 @@ h3 {
    
 }
 
-
+/* label styling */ 
 .wp-block-navigation-item__label {
     padding: 25px 25px;
     text-align: center;
 }
-
+/*  wp-block-site-title title a styling */ 
 .wp-block-site-title a{
 text-decoration: none;
 font-weight: 800;}
@@ -218,12 +233,14 @@ font-weight: 800;}
     color: aliceblue;
 }
 
+
+/* header styling*/ 
 .wc-block-cart-items__header {
-    color: aliceblue;
+    color: aliceblue; /* color styling*/ 
 }
 
 .wc-block-components-sidebar {
-    color: aliceblue;
+    color: aliceblue;/* header styling*/ 
 }
 
 
@@ -258,15 +275,16 @@ font-weight: 800;}
     font-size: 15px;
 }
 
+/*MyAccount a */
 .woocommerce-MyAccount-content a{
     color: rgb(0, 0, 0);
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 500;/* text boldeness definig*/ 
     text-decoration: none;
 }
 
 .woocommerce-MyAccount-content p{
-    padding-left: 50px;
+    padding-left: 50px;/* left padding*/ 
     font-size: 22px;
 }
 
@@ -287,6 +305,8 @@ font-weight: 800;}
     height: 480px;
 }
 
+
+/*styling for post date */
 .wp-block-post-date{
 padding-top: 20px;
     color: aliceblue;
