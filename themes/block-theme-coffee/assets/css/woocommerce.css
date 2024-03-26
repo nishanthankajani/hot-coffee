@@ -1,3 +1,4 @@
+/* Style the woocom nav*/
 .logged-in.woocommerce-account .entry-content .woocommerce {
     display:flex;
  padding-bottom: 50px;
@@ -5,36 +6,40 @@
     max-width:1024;
 }
 
+/* woo com list styling*/
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul{
 font-size: 10px;
 
 }
-
+/* woo com list styling*/
 .logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation li{
 background-color: black;
 padding-left: 15px;
 
 
 }
-
+/* Navigation and atribute color styling*/
 .woocommerce nav,a {
     color: aliceblue;
     
 }
 
+/* Price and title styling*/
 .woocommerce-Price-amount ,  .wp-block-query-title {
     color: antiquewhite;
     padding-left: 30px;
     font-weight: 400;
 }
 
+/*  title styling*/
 .wp-block-post-title{
     padding-top: 50px;
     color: antiquewhite;
-    padding-left: 25px;
+    text-align: center;
     font-size: 40px;
 }
 
+/* excerpt, tab color and positiong */
 .wp-block-post-excerpt__excerpt  , .wc-tabs{
     color: aliceblue;
     padding-left: 30px;
@@ -44,9 +49,11 @@ padding-left: 15px;
     color: aliceblue;
 }
 
+/*  quantity positioning */
 .quantity {
     padding-left: 20px;
 }
+
 .stock{
     padding-left: 20px;
     color: aliceblue;
@@ -278,5 +285,10 @@ font-weight: 800;}
 .woocommerce-form{
     background-color: #6a27167d;
     height: 480px;
+}
+
+.wp-block-post-date{
+padding-top: 20px;
+    color: aliceblue;
 }
 
