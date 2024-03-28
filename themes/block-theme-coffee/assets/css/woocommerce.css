@@ -308,7 +308,7 @@ font-weight: 800;}
 
 /*styling for post date */
 .wp-block-post-date{
-padding-top: 20px;
-    color: aliceblue;
+padding-top: 20px;/* Padding the post date */
+    color: aliceblue;/* Colour Changing*/
 }
 
