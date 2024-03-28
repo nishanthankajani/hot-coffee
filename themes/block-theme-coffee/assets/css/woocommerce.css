@@ -245,8 +245,8 @@ font-weight: 800;}
 
 
 .wc-block-grid__product-title{
-    color: aliceblue;
-    text-decoration: none;
+    color: aliceblue;/*colour*/ 
+    text-decoration: none;/*underlin removal*/ 
   
 }
 
