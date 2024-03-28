@@ -1,0 +1,314 @@
+/* Style the woocom nav*/
+.logged-in.woocommerce-account .entry-content .woocommerce {
+    display:flex;
+ padding-bottom: 50px;
+    font-size: 12px;
+    max-width:1024;
+}
+
+/* woo com list styling*/
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation ul{
+font-size: 10px;
+
+}
+/* woo com list styling*/
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-MyAccount-navigation li{
+background-color: black;
+padding-left: 15px;
+
+
+}
+/* Navigation and atribute color styling*/
+.woocommerce nav,a {
+    color: aliceblue;
+    
+}
+
+/* Price and title styling*/
+.woocommerce-Price-amount ,  .wp-block-query-title {
+    color: antiquewhite;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+/*  title styling*/
+.wp-block-post-title{
+    padding-top: 50px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* excerpt, tab color and positiong */
+.wp-block-post-excerpt__excerpt  , .wc-tabs{
+    color: aliceblue;
+    padding-left: 30px;
+}
+
+.entry-content wc-tab {
+    color: aliceblue;
+}
+
+/*  quantity positioning */
+.quantity {
+    padding-left: 20px;
+}
+
+/*  stock class styling*/
+.stock{
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.sku ,.woocommerce-result-count {
+    color: antiquewhite;
+ 
+   
+}
+
+/*  stock class styling*/   
+.wp-block-post-terms__prefix {
+    color: antiquewhite; /* color of the block post-term*/ 
+    font-size: 12px; /* font size*/  
+    margin-left: 25px; /* setting margin*/ 
+}
+
+.wp-block-post-terms__prefix a {
+    font-size: 20px;
+}
+
+.wp-block-post-title a{ 
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.woocommerce-breadcrumb a  , .woocommerce-MyAccount-navigation-link a{
+    color: antiquewhite;
+    text-decoration: none;
+  
+}
+
+.wp-block-woocommerce-product-meta a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+/*  styling the heading*/  
+.wp-block-heading {
+    color: aliceblue;/*  white as a color*/  
+}
+
+/*  hedding 2 nstyling*/  
+h2{
+    color:rgb(190, 53, 4);/*  colour and font sixe*/  
+    font-size:50px
+}
+
+/*  styling list*/  
+li {
+   
+    padding-left: 10px; /* padding the list to 10 px*/  
+
+}
+
+/* footer link*/  
+footer a {
+    text-decoration: none;/*  Removing underline and giving font size*/  
+    font-size: 20px;
+}
+
+/*  in footer hover the a need change color */  
+footer a:hover {
+    color: #6b1f0b;
+}
+
+
+/* In footer nave background change color */  
+.footer-nav {
+    background-color: #6b1f0b;
+}
+
+.wp-block-comment-date a{
+    font-size: 10;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* a underline removal and color change */ 
+.wp-block-comment-author-name a{
+    text-decoration: none;
+    color: aliceblue;}
+
+.wp-block-post-author-name a{
+    text-decoration: none;
+font-size: 20px;
+    color: aliceblue;
+}
+
+/* a underline removal, font size  and color change */ 
+.taxonomy-category a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+.wp-block-comment-edit-link a {
+    text-decoration: none;
+    padding:20px 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+/* Hedding 3 styling  */ 
+h3 {
+    padding-left: 50px;
+    font-size: 50px;
+    color: black; 
+}
+
+.wp-block-comment-reply-link a {
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+/* logged in styling */ 
+.logged-in-as a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);  
+}
+
+/* nav post styling text decoration and font size color */ 
+.post-navigation-link-previous a{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(0, 0, 0);  
+}
+.post-navigation-link-previous a:hover{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(223, 215, 215);  
+}
+
+
+
+.post-navigation-link-next a{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(0, 0, 0);  
+ 
+}
+
+.wp-block-comment-content a{
+    text-decoration: none;
+    font-size: 20px;
+        color: rgb(0, 0, 0);  
+}
+
+.wp-block-group ul{
+    list-style: none;
+    padding-bottom: 50px;
+   
+}
+
+/* label styling */ 
+.wp-block-navigation-item__label {
+    padding: 25px 25px;
+    text-align: center;
+}
+/*  wp-block-site-title title a styling */ 
+.wp-block-site-title a{
+text-decoration: none;
+font-weight: 800;}
+
+.wc-block-components-product-name , .wc-block-components-totals-coupon-link {
+    font-size: 22px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* header styling*/ 
+.wc-block-cart-items__header {
+    color: aliceblue; /* color styling*/ 
+}
+
+.wc-block-components-sidebar {
+    color: aliceblue;/* header styling*/ 
+}
+
+
+.wc-block-grid__product-title{
+    color: aliceblue;
+    text-decoration: none;
+  
+}
+
+.wc-block-formatted-money-amount {
+    color:aliceblue;
+    font-size: 25px;
+}
+
+.wc-block-components-product-price__value{
+    color:aliceblue;
+    font-size: 25px;
+
+}
+
+.wc-block-components-quantity-selector button {
+    color: antiquewhite;
+}
+
+.woocommerce-loop-product__title {
+    color: aliceblue;
+    font-weight: 800;
+}
+
+.wc-block-checkout__terms a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+/*MyAccount a */
+.woocommerce-MyAccount-content a{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 500;/* text boldeness definig*/ 
+    text-decoration: none;
+}
+
+.woocommerce-MyAccount-content p{
+    padding-left: 50px;/* left padding*/ 
+    font-size: 22px;
+}
+
+.woocommerce-LostPassword a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.woocommerce-privacy-policy-text a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.woocommerce-form{
+    background-color: #6a27167d;
+    height: 480px;
+}
+
+
+/*styling for post date */
+.wp-block-post-date{
+padding-top: 20px;
+    color: aliceblue;
+}
+

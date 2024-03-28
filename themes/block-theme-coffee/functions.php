@@ -15,12 +15,42 @@
  *
  * @return void
  */
-function block_theme_coffee_styles() {
+function block_theme_coffee_wp_enqueue_scripts() {
 	wp_enqueue_style(
-		'block-theme-coffee-style',
+		'block-theme-coffee',
 		get_stylesheet_uri(),
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
+	wp_enqueue_style(
+		'woocommerce',
+		get_template_directory_uri() . '/assets/css/woocommerce.css',
+		[],
+		wp_get_theme()->get( 'Version' )
+	);
+
+	wp_enqueue_style(
+		'bootstrap',
+        get_template_directory_uri() . '/assets/css/bootstrap.min.css',
+        [],
+        '5.3.2'
+	);
+	wp_enqueue_script(
+        'bootstrap',
+        get_template_directory_uri() .'/assets/js/bootstrap.min.js',
+        [],
+        '5.3.2'
+    );
 }
-add_action( 'wp_enqueue_scripts', 'block_theme_coffee_styles' );
+add_action( 'wp_enqueue_scripts', 'block_theme_coffee_wp_enqueue_scripts' );
+
+
+function hot_coffee_pre_get_post( $query ) {
+	if ( !is_admin() && $query->is_main_query() ) {
+	  if ( $query->is_search ) {
+		$query->set( 'post_type', array( hot_coffee_books ) );
+	  }
+	}
+  }
+  add_action( 'pre_get_posts', 'hot_coffee_pre_get_post' );
+  
